@@ -1,0 +1,26 @@
+body{
+    padding: 7rem;/*espaciado entre los elementos*/
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;/*que ocupe todo su ancho del contenedor*/
+    border: 1px solid #ddd;
+}
+/*cabeceras y pie de pagina*/
+thead, tfoot{
+    background: #333;
+    color:white;
+}
+/*para las filas*/
+th,td{
+    text-align: left;
+    padding: 16px;
+}
+/*cuando sea una fila impar*/
+tr:nth-child(even){
+    background: #ccddd8;
+}
+
+
+
